@@ -1,0 +1,42 @@
+* {
+    background-color: lightgray;
+}
+
+p {
+    background-color: inherit;
+}
+
+h1 {
+    background-color: inherit;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: cyan;
+    z-index: 1;
+}
+
+.MyName {
+    padding: 20px 100px;
+    margin: 0px;
+    font-size: 200%;
+    float: left;
+    background-color: lightblue;
+    color: black;
+}
+
+.main {
+    margin: 100px 25px;
+    padding: 25px;
+    background-color: white;
+}
+
+#Me {
+    margin: 25px;
+    float: left;
+}

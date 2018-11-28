@@ -1,14 +1,14 @@
 * {
     background-color: lightgray;
-}
-
-p {
     background-color: inherit;
 }
 
-h1 {
-    background-color: inherit;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+body {
+    background-color: lightgray;
+}
+
+.PageTitle {
+    color: #4aaaa5;
 }
 
 header {
@@ -26,8 +26,9 @@ header {
     margin: 0px;
     font-size: 200%;
     float: left;
-    background-color: lightblue;
-    color: black;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .main {
@@ -39,4 +40,13 @@ header {
 #Me {
     margin: 25px;
     float: left;
+}
+
+.header-links {
+    float: right;
+    padding: 20px 100px;
+}
+
+.message {
+    width: 80%;
 }

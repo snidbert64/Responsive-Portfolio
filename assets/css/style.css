@@ -1,14 +1,14 @@
 * {
     background-color: lightgray;
-}
-
-p {
     background-color: inherit;
 }
 
-h1 {
-    background-color: inherit;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+body {
+    background-color: lightgray;
+}
+
+.PageTitle {
+    color: #4aaaa5;
 }
 
 header {
@@ -26,17 +26,64 @@ header {
     margin: 0px;
     font-size: 200%;
     float: left;
-    background-color: lightblue;
-    color: black;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .main {
-    margin: 100px 25px;
-    padding: 25px;
+    margin: 5% 5%;
+    padding: 5%;
     background-color: white;
 }
 
 #Me {
     margin: 25px;
     float: left;
+}
+
+.header-links {
+    float: right;
+    padding: 20px 100px;
+}
+
+.message {
+    width: 80%;
+}
+
+@media only screen and (max-width: 2000px) {
+    .main {
+        margin-right: 30%;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .main {
+        margin-right: 20%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        margin-right: 5%;
+    }
+    header {
+        position: static;
+        margin: 0px;
+    }
+    .MyName {
+        padding: 15px 40%;
+        width: 20%
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    #Me {
+        width: 90%;
+        height: auto;
+    }
+    .header-links {
+        float: none;
+        text-align: center;
+        padding-top: 10%;
+    }
 }

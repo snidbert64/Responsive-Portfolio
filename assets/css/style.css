@@ -49,6 +49,7 @@ header {
 
 .message {
     width: 80%;
+<<<<<<< HEAD
 }
 
 @media only screen and (max-width: 2000px) {
@@ -86,4 +87,6 @@ header {
         text-align: center;
         padding-top: 10%;
     }
+=======
+>>>>>>> b7ee916d3e4d90e650f00893725c4b7a8afb5aff
 }
